@@ -12,8 +12,30 @@ const AboutMe = () => {
             <li> Cebu City</li>
           </ul>
         </div>
-         
-        
+        <div className="second-part">
+          <h3>Skills</h3>
+          <ul>
+            <li>Communication</li>
+            <li>Communication</li>
+            <li>Communication</li>
+          </ul>
+        </div>
+        <div className="third-part">
+          <h3>Education</h3>
+          <ul>
+            <li>BSIT</li>
+            <li>BSIT</li>
+            <li>BSIT</li>
+          </ul>
+        </div>
+        <div className="fourth-part">
+          <h3>Experiences</h3>
+          <ul>
+            <li>BSIT</li>
+            <li>BSIT</li>
+            <li>BSIT</li>
+          </ul>
+        </div>        
       </main>
     </>
   )
