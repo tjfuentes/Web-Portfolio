@@ -1,0 +1,32 @@
+#root {
+  background-color: #24253b;
+  width: 100%;
+  height: 200vh;
+  
+}
+.main-container {
+  display: flex;
+  justify-content: start;
+  border: 1px solid white;
+}
+
+.intro-container {
+  width: 20vw;
+  height: 20vh;
+  border: 1px solid white;
+
+  h4 {
+    color: #c3c6cf;
+    margin: 20px;
+
+    span {
+      color: #dd4c5b;
+    }
+
+  }
+  
+  p {
+    color: #c3c6cf;
+  }
+}
+
