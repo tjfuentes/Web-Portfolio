@@ -30,41 +30,58 @@ const Home = () => {
 
           <div className="technology">
             <div className="tools">
-              <i className="fa-brands fa-html5"></i>
+              <Link to="https://web.dev/learn/html/"><i className="fa-brands fa-html5"></i></Link>
               <h4>HTML</h4>
             </div>
             <div className="tools">
-              <i className="fa-brands fa-css3"></i>
+            <Link to="https://web.dev/learn/css/"><i className="fa-brands fa-css3"></i></Link>
               <h4>CSS</h4>
             </div>
             <div className="tools">
-              <i className="fa-brands fa-square-js"></i>
+            <Link to="https://www.javascript.com/learn/strings"><i className="fa-brands fa-square-js"></i></Link>
               <h4>JavaScript</h4>
             </div>
             <div className="tools">
-              <i className="fa-brands fa-php"></i>
-              <h4>JavaScript</h4>
+            <Link to="https://www.php.net/"><i className="fa-brands fa-php"></i></Link>
+              <h4>PHP</h4>
             </div>
           </div>
         </div>
 
-        <div className="back-container">
-          <h3>Framework</h3>
+        <div className="framework-container">
+          <div className="first-section">
+            <h3>Framework</h3>
 
-          <div className="technology">
-            <div className="tools">
-              <i class="fa-brands fa-react"></i>
-              <h4>React</h4>
-            </div>
-            <div className="tools">
-              <i class="fa-brands fa-bootstrap"></i>
-              <h4>Bootstrap</h4>
-            </div>
-            <div className="tools">
-              <i class="fa-brands fa-laravel"></i>
-              <h4>Laravel</h4>
+            <div className="technology">
+              <div className="tools">
+              <Link to="https://react.dev/learn"><i class="fa-brands fa-react"></i></Link>
+                <h4>React</h4>
+              </div>
+              <div className="tools">
+              <Link to="https://getbootstrap.com/"><i class="fa-brands fa-bootstrap"></i></Link>
+                <h4>Bootstrap</h4>
+              </div>
+              <div className="tools">
+              <Link to="https://laravel.com/docs/10.x/readme"><i class="fa-brands fa-laravel"></i></Link>
+                <h4>Laravel</h4>
+              </div>
             </div>
           </div>
+
+          <div className="second-section">
+            <h3>Database</h3>
+
+            <div className="technology">
+              <div className="tools">
+              <Link to="https://dev.mysql.com/doc/"><i class="fa-solid fa-database"></i></Link>
+                <h4>MySQL</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="about-me">
+          
         </div>
 
         

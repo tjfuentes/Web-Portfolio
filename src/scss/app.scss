@@ -114,15 +114,24 @@
 
       h4 {
         color: #6f3346;
+        text-transform: uppercase;
       }
       
+    }
+
+    .tools:hover {
+      h4 {
+        color: #c3c6cf;
+      }
     }
   }
 }
 
-.back-container {
+.framework-container {
   margin-top: 50px;
   height: 35vh;
+  display: flex;
+  justify-content: space-around;
 
   h3 {
     margin: 2px;
@@ -143,7 +152,6 @@
       justify-content: center;
       align-items: center;
       flex-direction: column;
-      // border: 1px solid white;
       text-indent: 1rem;
       
       i {
@@ -152,9 +160,17 @@
       }
 
       h4 {
+        text-transform: uppercase;
+        margin: 1rem;
         color: #6f3346;
       }
       
+    }
+
+    .tools:hover {
+      h4 {
+        color: #c3c6cf;
+      }
     }
   }
 }
